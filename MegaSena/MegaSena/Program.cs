@@ -12,7 +12,7 @@ namespace MegaSena
         static void Main(string[] args)
         {
             Console.WriteLine("Seja bem vindo cole aqui o caminho em excel de todos os jogos da mega sena");
-           var caminho = Console.ReadLine();         
+            var caminho = Console.ReadLine();
             Workbook wb = new Workbook(caminho);
             Console.WriteLine("Escolha que tipo de Jogo irá fazer");
             Console.WriteLine("1) Com os números que mais sorteados");
@@ -21,67 +21,129 @@ namespace MegaSena
             Console.WriteLine("4) Com os números de jogos mais sorteados");
             var opcao = Console.ReadLine();
             List<int> listGeral = new List<int>();
-           
+
             List<int> num1 = new List<int>();
+            List<int> frequencia1 = new List<int>();
             List<int> num2 = new List<int>();
+            List<int> frequencia2 = new List<int>();
             List<int> num3 = new List<int>();
+            List<int> frequencia3 = new List<int>();
             List<int> num4 = new List<int>();
+            List<int> frequencia4 = new List<int>();
             List<int> num5 = new List<int>();
+            List<int> frequencia5 = new List<int>();
             List<int> num6 = new List<int>();
+            List<int> frequencia6 = new List<int>();
             List<int> num7 = new List<int>();
+            List<int> frequencia7 = new List<int>();
             List<int> num8 = new List<int>();
+            List<int> frequencia8 = new List<int>();
             List<int> num9 = new List<int>();
+            List<int> frequencia9 = new List<int>();
             List<int> num10 = new List<int>();
+            List<int> frequencia10 = new List<int>();
             List<int> num11 = new List<int>();
+            List<int> frequencia11 = new List<int>();
             List<int> num12 = new List<int>();
+            List<int> frequencia12 = new List<int>();
             List<int> num13 = new List<int>();
+            List<int> frequencia13 = new List<int>();
             List<int> num14 = new List<int>();
+            List<int> frequencia14 = new List<int>();
             List<int> num15 = new List<int>();
+            List<int> frequencia15 = new List<int>();
             List<int> num16 = new List<int>();
+            List<int> frequencia16 = new List<int>();
             List<int> num17 = new List<int>();
+            List<int> frequencia17 = new List<int>();
             List<int> num18 = new List<int>();
+            List<int> frequencia18 = new List<int>();
             List<int> num19 = new List<int>();
+            List<int> frequencia19 = new List<int>();
             List<int> num20 = new List<int>();
+            List<int> frequencia20 = new List<int>();
             List<int> num21 = new List<int>();
+            List<int> frequencia21 = new List<int>();
             List<int> num22 = new List<int>();
+            List<int> frequencia22 = new List<int>();
             List<int> num23 = new List<int>();
+            List<int> frequencia23 = new List<int>();
             List<int> num24 = new List<int>();
+            List<int> frequencia24 = new List<int>();
             List<int> num25 = new List<int>();
+            List<int> frequencia25 = new List<int>();
             List<int> num26 = new List<int>();
+            List<int> frequencia26 = new List<int>();
             List<int> num27 = new List<int>();
+            List<int> frequencia27 = new List<int>();
             List<int> num28 = new List<int>();
+            List<int> frequencia28 = new List<int>();
             List<int> num29 = new List<int>();
+            List<int> frequencia29 = new List<int>();
             List<int> num30 = new List<int>();
+            List<int> frequencia30 = new List<int>();
             List<int> num31 = new List<int>();
+            List<int> frequencia31 = new List<int>();
             List<int> num32 = new List<int>();
+            List<int> frequencia32 = new List<int>();
             List<int> num33 = new List<int>();
+            List<int> frequencia33 = new List<int>();
             List<int> num34 = new List<int>();
+            List<int> frequencia34 = new List<int>();
             List<int> num35 = new List<int>();
+            List<int> frequencia35 = new List<int>();
             List<int> num36 = new List<int>();
+            List<int> frequencia36 = new List<int>();
             List<int> num37 = new List<int>();
+            List<int> frequencia37 = new List<int>();
             List<int> num38 = new List<int>();
+            List<int> frequencia38 = new List<int>();
             List<int> num39 = new List<int>();
+            List<int> frequencia39 = new List<int>();
             List<int> num40 = new List<int>();
+            List<int> frequencia40 = new List<int>();
             List<int> num41 = new List<int>();
+            List<int> frequencia41 = new List<int>();
             List<int> num42 = new List<int>();
+            List<int> frequencia42 = new List<int>();
             List<int> num43 = new List<int>();
+            List<int> frequencia43 = new List<int>();
             List<int> num44 = new List<int>();
+            List<int> frequencia44 = new List<int>();
             List<int> num45 = new List<int>();
+            List<int> frequencia45 = new List<int>();
             List<int> num46 = new List<int>();
+            List<int> frequencia46 = new List<int>();
             List<int> num47 = new List<int>();
+            List<int> frequencia47 = new List<int>();
             List<int> num48 = new List<int>();
+            List<int> frequencia48 = new List<int>();
             List<int> num49 = new List<int>();
+            List<int> frequencia49 = new List<int>();
             List<int> num50 = new List<int>();
+            List<int> frequencia50 = new List<int>();
             List<int> num51 = new List<int>();
+            List<int> frequencia51 = new List<int>();
             List<int> num52 = new List<int>();
+            List<int> frequencia52 = new List<int>();
             List<int> num53 = new List<int>();
+            List<int> frequencia53 = new List<int>();
             List<int> num54 = new List<int>();
+            List<int> frequencia54 = new List<int>();
             List<int> num55 = new List<int>();
+            List<int> frequencia55 = new List<int>();
             List<int> num56 = new List<int>();
+            List<int> frequencia56 = new List<int>();
             List<int> num57 = new List<int>();
+            List<int> frequencia57 = new List<int>();
             List<int> num58 = new List<int>();
+            List<int> frequencia58 = new List<int>();
             List<int> num59 = new List<int>();
+            List<int> frequencia59 = new List<int>();
             List<int> num60 = new List<int>();
+            List<int> frequencia60 = new List<int>();
+
+
 
             if (opcao == "1")
             {
@@ -91,19 +153,19 @@ namespace MegaSena
                 {
 
                     // Obter planilha usando seu índice
-                    Worksheet worksheet = collection[worksheetIndex];                   
+                    Worksheet worksheet = collection[worksheetIndex];
                     // Obter número de linhas e colunas
                     int rows = worksheet.Cells.MaxDataRow;
                     int cols = worksheet.Cells.MaxDataColumn;
 
                     // Percorrer as linhas
-                    for (int i = 1; i < rows; i++)
+                    for (int i = 7; i < rows; i++)
                     {
 
                         // Percorrer cada coluna na linha selecionada
-                        for (int j = 2; j > 1 && j < 8  ; j++)
+                        for (int j = 2; j > 1 && j < 8; j++)
                         {
-                            
+
                             // Valor da célula de Pring
                             Console.Write(worksheet.Cells[i, j].Value + " | ");
                             for (int l = 1; l <= 60; l++)
@@ -112,7 +174,24 @@ namespace MegaSena
                                 {
                                     if (l == 1)
                                     {
+                                        if (frequencia1.Count == 0)
+                                        {
+                                            var anterior = worksheet.Cells[i, 0].Value;
+                                            var atual = worksheet.Cells[i, 0].Value;
+                                            frequencia1.Add(Convert.ToInt32(atual));
+
+                                        }
+                                        else
+                                        {
+                                            var anterior = frequencia1.Last();
+                                            var atual = worksheet.Cells[i, 0].Value;
+                                            var valor = anterior - Convert.ToInt32(atual);
+                                            frequencia1.Add(Convert.ToInt32(atual));
+                                        }
+
+
                                         num1.Add(l);
+
                                         break;
                                     }
                                     if (l == 2)
@@ -160,7 +239,7 @@ namespace MegaSena
                                         num10.Add(l);
                                         break;
                                     }
-                                    
+
                                     if (l == 11)
                                     {
                                         num11.Add(l);
@@ -400,19 +479,19 @@ namespace MegaSena
                                     if (l == 58)
                                     {
                                         num58.Add(l);
-                                       
+
                                         break;
                                     }
                                     if (l == 59)
                                     {
                                         num59.Add(l);
-                                        
+
                                         break;
                                     }
                                     if (l == 60)
                                     {
                                         num60.Add(l);
-                                        
+
                                         break;
                                     }
 
@@ -420,13 +499,13 @@ namespace MegaSena
                             }
 
                         }
-                       
+
                         // Imprimir quebra de linha
                         Console.WriteLine(listGeral);
                     }
-                    
+
                 }
-                
+
             }
             listGeral.Add(num1.Count);
             listGeral.Add(num2.Count);
@@ -494,8 +573,8 @@ namespace MegaSena
                 listGeralNova.Add(item);
             }
             maior = listGeralNova.Max();
-            List<int> jogo = new List<int>();  
-            for(int a = 0; a < 6; a++)
+            List<int> jogo = new List<int>();
+            for (int a = 0; a < 6; a++)
             {
                 for (int u = 0; u < listGeral.Count; u++)
                 {
@@ -503,7 +582,7 @@ namespace MegaSena
                     {
                         int num = u + 1;
                         jogo.Add(num);
-                        for( int k =0; k<= listGeralNova.Count; k++)
+                        for (int k = 0; k <= listGeralNova.Count; k++)
                         {
                             if (maior == Convert.ToInt32(listGeralNova[k]))
                             {
@@ -512,22 +591,42 @@ namespace MegaSena
                                 break;
                             }
                         }
-                       
+
                     }
-                    if(jogo.Count == 6)
+                    if (jogo.Count == 6)
                     {
                         break;
                     }
-                    
+
                 }
                 if (jogo.Count == 6)
                 {
                     break;
                 }
             }
+            int soma = 0;
+            List<int> valores = new List<int>();
+            for(int w = 0; w < frequencia1.Count; w++)
+            {
+                //soma = soma + Convert.ToInt32(frequencia1[w]);
+                var atual = frequencia1[w];
+                if(w== frequencia1.Count-1)
+                {
+                    break;
+                }
+                var anterior = frequencia1[w + 1];
+                var valor = atual - anterior;
+                valores.Add(valor);
+            }
+            for(int q = 0; q < valores.Count; q++)
+            {
+                soma = soma + Convert.ToInt32(valores[q]);
+            }
+             float media = soma / valores.Count;
+            Console.WriteLine(media);
             Console.WriteLine("Seu numero de jogo são:");
-            Console.WriteLine(""+jogo[0]+ ", " + jogo[1] + ", " + jogo[2] + ", " + jogo[3] + ", " + jogo[4] + ", " + jogo[5] + "");
-            
+            Console.WriteLine("" + jogo[0] + ", " + jogo[1] + ", " + jogo[2] + ", " + jogo[3] + ", " + jogo[4] + ", " + jogo[5] + "");
+
         }
 
     }
